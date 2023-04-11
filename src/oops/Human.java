@@ -8,8 +8,11 @@ public class Human {
 	int age;
 	double weight;
 	
-	Head headxyz;
+	Head head;
 	int k; 
+	
+	String nationality = "India"; // 1000 = 5 , 4995 byte  
+	
 	
 	// behaviour	
 	public void speak(String content) {

@@ -10,7 +10,7 @@ public class HumanDemo {
 		Head headx = new Head();
 //		h1.headxyz = headx;
 		
-		h1.headxyz.shape = "oval";
+		h1.head.shape = "oval";
 		
 		int m = 10;
 		h1.k = m;

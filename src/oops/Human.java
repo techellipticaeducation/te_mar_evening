@@ -11,8 +11,9 @@ public class Human {
 	Head head;
 	int k; 
 	
-	String nationality = "India"; // 1000 = 5 , 4995 byte  
+	static final String nationality = "India"; // 1000 = 5 , 4995 byte  
 	
+	static final double PI = 3.14d;
 	
 	// behaviour	
 	public void speak(String content) {

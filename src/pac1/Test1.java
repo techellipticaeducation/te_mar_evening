@@ -4,7 +4,7 @@ import pac2.Test2;
 
 public class Test1 {
 	public static void main(String[] args) {
-		Test2.m1_private();
+		//Test2.m1_private();
 	}
 	static void m1_default() {
 		System.out.println("pac1.Test1.m1_default");

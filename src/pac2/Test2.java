@@ -6,7 +6,7 @@ public class Test2 {
 	
 	private static void m1_private() {
 		Test1.m1_public();
-		Test1.m1_default();
+		//Test1.m1_default();
 		System.out.println("pac2.Test2.m1_private");
 	}
 	
@@ -15,6 +15,9 @@ public class Test2 {
 		m1_private();
 	}
 	
+	
+// 	multi threaded 
+	// static 
 }
 
 

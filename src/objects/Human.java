@@ -9,6 +9,19 @@ public class Human {
 	double height;
 	String country;
 	
+	Human(String name){
+		this.name = name;
+	}
+	
+	Human(String name, int age,
+			double weight, double height,String country){
+		this.name = name;
+		this.age = age;
+		this.weight = weight;
+		this.height = height;
+		this.country = country;
+	}
+	
 	Hand hand = new Hand();
 	Leg leg;
 	Head head;

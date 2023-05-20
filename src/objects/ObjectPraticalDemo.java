@@ -3,11 +3,15 @@ package objects;
 public class ObjectPraticalDemo {
 	public static void main(String[] args) {
 		
-		Human h1 = new Human();
-		h1.name = "sachin";
-		h1.age  = 24;
+		Human h1 = new Human("Sachin",
+				24,34.6,34.7,"India");
+		h1.name = "hj";
 		
-		h1.hand.lengthOfHand = 5.6;
+		
+//		h1.name = "sachin";
+//		h1.age  = 24;
+//		
+//		h1.hand.lengthOfHand = 5.6;
 		
 //		Hand han1 = new Hand();
 //		han1.numberOfHand = 2;

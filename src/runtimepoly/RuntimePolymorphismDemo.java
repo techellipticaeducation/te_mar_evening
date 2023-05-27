@@ -1,14 +1,16 @@
 package runtimepoly;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class RuntimePolymorphismDemo {
 	public static void main(String[] args) {
 		// test script
-		Browser chrome = new Chrome();
-		chrome.type();
-		chrome.click();
-		chrome.type();
-		chrome.click();
-		
+//		Browser chrome = new Chrome();
+//		chrome.type();
+//		chrome.click();
+//		chrome.type();
+//		chrome.click();
 	}
 }
 //abstract = partial,  HAS-A Relationship not allowed ,  only IS-A Relation allowed
